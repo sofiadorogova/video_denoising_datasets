@@ -30,7 +30,7 @@ This repository supports our position paper for **VISAPP 2026** on the need for 
 ## Notes on Synthetic RAW
 
 - **RAW from sRGB?** Datasets like MOT16, DAVIS, YouTube/Vimeo are *originally sRGB*. To simulate RAW, works use *unprocessing* (e.g., Brooks et al., *Unprocessing Images for Learned Raw Denoising*, CVPR 2019). This is convenient but **does not reproduce real sensor noise statistics** (e.g., shot/read noise correlation, ISP nonlinearity). See *Noise Flow (ICCV 2019)* for discussion
-- **Set8 & DAVIS** are commonly used for *evaluation only* (e.g., in VRT, DVDnet), not for training RAW models.
+- **Set8 & DAVIS** are commonly used for *evaluation only* (e.g., in VRT, DVDnet), not for training RAW models
 
 ---
 
