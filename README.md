@@ -15,9 +15,9 @@ This repository supports our position paper for **VISAPP 2026** on the need for 
 |  | **CRVD** (2020) | RAW Video Denoising | RAW | 1920×1080 | 55 (11 scenes × 5 ISO) | 385 | ✅ | [GitHub](https://github.com/cao-cong/RViDeNet) • [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Yue_Supervised_Raw_Video_Denoising_With_a_Benchmark_Dataset_on_Dynamic_CVPR_2020_paper.pdf) |
 |  | **Real-LLRVD** (2022) | Low-Light Enhancement | RAW | 3840×2160 (downscaled) | 210 | — | ❌ | [Paper](https://ieeexplore.ieee.org/document/10003653) |
 |  | **ReCRVD** (2025) | RAW Video Denoising | RAW | 1920×1080 | 120 | ~1,200 | ✅ | [GitHub (RViDeformer)](https://github.com/cao-cong/RViDeformer) • [Paper](https://arxiv.org/abs/2305.00767) |
-|  | **AIM 2025 Challenge** (2025) | Mobile RAW Denoising | RAW | 14 sensors (2592×1940 to 4080×3072) | 756 sequences | 7,560 | ⚠️ (registration) |  • [Paper](https://arxiv.org/abs/2508.16830) |
+|  | **AIM 2025 Challenge** (2025) | Mobile RAW Denoising | RAW | 14 sensors (2592×1940 to 4080×3072) | 756  | 7,560 | ⚠️ (registration) |  • [Paper](https://arxiv.org/abs/2508.16830) |
 | **SYNTHETIC** | **MOT16** (2016) | Video Denoising (via unprocessing) | sRGB → RAW | 1920×1080 | 14 | ~11k | ✅ | [Official](https://motchallenge.net/data/MOT16/) • [Paper](https://arxiv.org/abs/1603.00831) |
-|  | **DAVIS-2017** | Video Denoising (post-hoc noise) | sRGB | 720–4K | 150 sequences | ~11k | ✅ | [Official](https://davischallenge.org/) • [Paper](https://arxiv.org/abs/1704.00675) |
+|  | **DAVIS-2017** | Video Denoising (post-hoc noise) | sRGB | 720–4K | 150 | ~11k | ✅ | [Official](https://davischallenge.org/) • [Paper](https://arxiv.org/abs/1704.00675) |
 |  | **Vimeo-90K** (2019) | General Video Restoration | sRGB (H.264) | 448×256 | 91,701 | ~642k | ✅ | [TOFlow](http://toflow.csail.mit.edu/) • [Paper](http://toflow.csail.mit.edu/toflow_ijcv.pdf) |
 |  | **Set8** (2019) | Video Denoising | sRGB | 960×540 | 8 | 680 | ✅ | [GitHub (DVDnet)](https://github.com/m-tassano/dvdnet) • [Paper](https://arxiv.org/abs/1906.11890) |
 
